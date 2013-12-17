@@ -3,7 +3,16 @@ h1, .orange{
 }
 #awning{
 	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+body{
+	font-size: 20px;
+	padding: 10px;
 }
 h1{
 	font-size: 72px;
 }
+
+	

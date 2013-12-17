@@ -1,0 +1,28 @@
+#cup-container{
+	text-align: center;
+}
+
+.cup{
+	display: inline-block;
+	margin: 0 30px;
+}
+p{
+	width: 700px;
+	margin: 20px auto 50px;
+	text-align: center;
+}
+#awning{
+	text-align: center;
+	font-family: Consolas, monaco, monospace;
+}
+#winner{
+	width: 500px;
+	margin: 20px auto 50px;
+	text-align: center;
+}
+#merry{
+	color: red;
+}
+#christmas{
+	color: green;
+}
