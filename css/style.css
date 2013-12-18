@@ -14,5 +14,7 @@ body{
 h1{
 	font-size: 72px;
 }
-
+#awning, #top-container, #link-container{
+	padding: 30px;
+}
 	
