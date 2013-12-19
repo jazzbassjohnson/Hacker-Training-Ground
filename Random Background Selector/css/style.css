@@ -1,5 +1,5 @@
 body {
-	background: #fff18e;
+	background: linear-gradient(to right, red, green);;
 }
 
 #button_container {

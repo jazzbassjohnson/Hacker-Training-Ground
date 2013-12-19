@@ -3,7 +3,7 @@ $(document).ready(function(){
 		return "#" + Math.random().toString(16).slice(2, 8);
 	};
 	$('#button').on('click', function(){
-		$('body').css("background", randomColor());
+		$('body').css("background", "linear-gradient(to right, " + randomColor() + ", " + randomColor());
 	});
 
 });
