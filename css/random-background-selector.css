@@ -18,3 +18,36 @@ body {
 	border-left: 1px solid #c94660;
 	text-shadow: 1px 2px 0 #831127;
 }
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 20px 40px;
+	background-color: #333;
+}
+
+footer a:link {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin-right: 15px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #7ccd24;
+}
+
+
+footer a:visited {
+	color: white;
+}
+
+#box_1 {
+	border-left: 13px solid #ff9933; 
+}
+
+#box_2 {
+	border-left: 13px solid #8b00e0; 
+}
