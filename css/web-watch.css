@@ -1,0 +1,72 @@
+#desk{
+	font-family: 'HelveticaNeue-UltraLight','Helvetica Neue UltraLight','Helvetica Neue','Open-Light',sans-serif;
+	background-color: #a3d9ed;
+}
+#welcome{
+	margin: 0px 50px 20px 50px;
+	padding: 10px;
+
+}
+
+#greeting{
+	text-align: center;
+	font-size: 75px;
+}
+
+#calendar{
+	margin: 20px 50px 20px 50px;
+	text-align: center;
+}
+
+#header{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 100%;
+	text-align: right;
+	margin-right: 0px;
+	font-size: 25px;
+}
+#header a:link{
+	text-decoration: none;
+	color: #777;
+}
+
+#header a:visited{
+	color: #777;
+}
+
+.day{
+	margin: 20px 0px 0px 20px;
+	display: inline-block;
+	font-weight: bolder;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 2px solid #777;
+	text-align: center;
+	background-color: #eab269;
+}
+
+#clock{
+	margin: 20px 50px 50px 50px;
+	height: 100px;
+	padding: 0px;
+	text-align: center;
+	border-bottom: 1px solid #777;
+}
+.time{
+	font-size: 75px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}
+
+#wtz{
+	font-size: 50px;
+	margin: 0px;
+}
+
