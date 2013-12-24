@@ -5,23 +5,26 @@ $(document).ready(function(){
    		if(+hours < 12){
    			$('#greeting').text("Good Morning!");
    		}
-   		if(+hours >= 12 && +hours <= 16){
+   		if(+hours >= 12 && +hours < 16){
    			$('#greeting').text("Good Afternoon!");
    		}
-   		if(+hours >= 4){
+   		if(+hours >= 16){
    			$('#greeting').text("Good Evening!");
    		}
    		if(hours === '0'){
    			hours = '12';
    			wtz = 'pm';
    		};
+
    		if(+hours > 12){hours = "0" + (+hours - 12)};
    		var minutes = Date().split(' ')[4].split(':')[1];
    		var seconds = Date().split(' ')[4].split(':')[2];
+         var day = Date().split(' ').splice(1, 2).join(" ");
+         var weekDay = Date().split(' ')[0];
    		$('#hour').text(hours);
    		$('#minute').text(minutes);
    		$('#second').text(seconds);
-   		$('#' + Date().split(' ')[0]).css('background-color', '#0f6c8e')
+   		$('#' + weekDay).css('background-color', '#0f6c8e')
    		$('#wtz').text(wtz);
 
 
