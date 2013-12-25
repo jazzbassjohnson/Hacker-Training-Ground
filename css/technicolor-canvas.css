@@ -39,5 +39,6 @@ button a:hover{
 	border: 1px solid #111;
 	background-color: #777;
 	margin: 0px;
+	z-index: 1;
 
 }
