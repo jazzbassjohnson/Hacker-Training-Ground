@@ -16,7 +16,11 @@ $(document).ready(function(){
    			wtz = 'pm';
    		};
 
-   		if(+hours > 12){hours = "0" + (+hours - 12)};
+   		if(+hours > 12){hours = (+hours - 12);
+            if(+hours < 10){
+               hours = "0" + hours;
+            }
+         };
    		var minutes = Date().split(' ')[4].split(':')[1];
    		var seconds = Date().split(' ')[4].split(':')[2];
          var day = Date().split(' ').splice(1, 2).join(" ");
@@ -24,7 +28,8 @@ $(document).ready(function(){
    		$('#hour').text(hours);
    		$('#minute').text(minutes);
    		$('#second').text(seconds);
-   		$('#' + weekDay).css('background-color', '#0f6c8e')
+         $('.day').css('background-color', '#eab269');
+   		$('#' + weekDay).css('background-color', '#0f6c8e');
    		$('#wtz').text(wtz);
 
 
