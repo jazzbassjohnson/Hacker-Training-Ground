@@ -18,8 +18,19 @@ div header{
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	width: 100%;
+	width: 250px;
 	text-align: right;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-size: 20px;
+}
+#instructions{
+	border: 2px solid white;
+	position: fixed;
+	z-index: 1;
+	right: 20px;
+	top: 100px;
+	width: 200px;
+	text-align: left;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 	font-size: 20px;
 }
@@ -31,7 +42,6 @@ div header{
 }
 #info a:visited{
 	color: white;
-
 }
 #paint{
 	border-radius: 15px;
