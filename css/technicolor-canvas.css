@@ -16,7 +16,7 @@ div header{
 }
 #info{
 	position: absolute;
-	right: 20px;
+	right: 50px;
 	top: 20px;
 	width: 250px;
 	text-align: right;
@@ -27,12 +27,15 @@ div header{
 	border: 2px solid white;
 	position: fixed;
 	z-index: 1;
-	right: 20px;
-	top: 100px;
-	width: 200px;
+	right: 50px;
+	top: 133px;
+	width: 185px;
 	text-align: left;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 	font-size: 20px;
+}
+#instructions p{
+	padding: 10px;
 }
 #info a:link{
 	text-decoration: none;
@@ -42,6 +45,10 @@ div header{
 }
 #info a:visited{
 	color: white;
+}
+
+#info a:hover{
+	color: orange;
 }
 #paint{
 	border-radius: 15px;

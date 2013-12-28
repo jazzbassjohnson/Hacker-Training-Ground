@@ -66,6 +66,7 @@ $(document).ready(function(){
    	  freeBrush('.box');	
       });
    });
+   
    $('#flare').css('color', randomColor());
    $('#randomize').trigger('click')
 
