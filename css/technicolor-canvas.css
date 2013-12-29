@@ -1,4 +1,5 @@
 html, #aisle {
+	cursor: url('/cursors/cursor.cur'), auto;
 	height: 100%;
 	background-color: #101010;
 	color: white;
