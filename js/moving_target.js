@@ -52,20 +52,20 @@
 
 
 $(document).ready(function () {
-  var messages = ["Nice job!",
-          "Excellent clickin'!",
-          "That was Awesome!",
-          "Man are you good!",
-          "Boom!",
-          "You're a pro!",
-          "Unbelievable!",
-          "Insanity!",
-          "You're on fire!",
-          "That was crazy!",
-          "You are blowin' my mind!"]
+  var messages = ["Nice!",
+          "There ya go!",
+          "Killin' it!",
+          "Wow, what a clicker!",
+          "Boom-Shakalaca!",
+          "P.R.O.!",
+          "Incredible!",
+          "Cray-Cray!",
+          "Fire!",
+          "Get it!",
+          "YOLO!"]
   var levels = 0
 
-  $('#ball').on('click', function () {
+  $('#target').on('click', function () {
 
     if (levels < 11) {
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
       $('#congrats').text('WINNER!');
       $('#next_level').text("Holy cow! You won the whole freakin' thing!");
       $('#replay').show();
-      $('#ball_container').hide();
+      $('#target_container').hide();
       $('#message_container').show();
     }
   });
@@ -91,11 +91,11 @@ $(document).ready(function () {
     $('#level').text(levels + 1);
 
     $('#message_container').show();
-    $('#ball_container').hide();
+    $('#target_container').hide();
 
     setTimeout(function() { 
       $('#message_container').hide();
-      $('#ball_container').show();
+      $('#target_container').show();
      }, 3000);
 
   }
