@@ -79,16 +79,42 @@ a:hover {
 #target {
   height: 120px;
   width: 120px;
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
   cursor: pointer;
   border-radius: 50%;
+  border: 10px solid red;
 
   -webkit-animation: bounce 12s infinite;
   -moz-animation: bounce 12s infinite;
   -o-animation: bounce 12s infinite;
   animation: bounce 12s infinite;
 }
+#inside_ring{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 80px;
+  width: 80px;
+  border: 10px solid white;
+
+  background-color: red;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#center_ring{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+  border: 10px solid white;
+
+  background-color: red;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 
 footer {
   position: absolute;
@@ -97,7 +123,7 @@ footer {
   right: 0;
   height: 50px;
   text-align: left;
-  background-color: red;
+  background-color: #666;
 }
 
 #footer_links {
@@ -131,68 +157,37 @@ footer a:visited {
 87%  {margin-top: 500px;-webkit-animation-timing-function: ease-out;}
 100% {margin-top: 0px; -webkit-animation-timing-function: ease-in;}
 }
-
 @-moz-keyframes bounce {
 0%   {margin-top: 0px; -moz-animation-timing-function: ease-in;}
-11%  
 12%  {margin-top: 500px;-moz-animation-timing-function: ease-out;}
-13%  
 25%  {margin-top: 0px; -moz-animation-timing-function: ease-in;}
-36%  
 37%  {margin-top: 500px;-moz-animation-timing-function: ease-out;}
-38%  
 49%  {margin-top: 0px; -moz-animation-timing-function: ease-in;}
-60%  
 61%  {margin-top: 500px;-moz-animation-timing-function: ease-out;}
-62%  
 75%  {margin-top: 0px; -moz-animation-timing-function: ease-in;}
-86%  
 87%  {margin-top: 500px;-moz-animation-timing-function: ease-out;}
-88%  
 100% {margin-top: 0px; -moz-animation-timing-function: ease-in;}
 }
-
 @-o-keyframes bounce {
 0%   {margin-top: 0px; -o-animation-timing-function: ease-in;}
-11%  
 12%  {margin-top: 500px;-o-animation-timing-function: ease-out;}
-13%  
 25%  {margin-top: 0px; -o-animation-timing-function: ease-in;}
-36%  
 37%  {margin-top: 500px;-o-animation-timing-function: ease-out;}
-38%  
 49%  {margin-top: 0px; -o-animation-timing-function: ease-in;}
-60%  
 61%  {margin-top: 500px;-o-animation-timing-function: ease-out;}
-62%  
 75%  {margin-top: 0px; -o-animation-timing-function: ease-in;}
-86%  
 87%  {margin-top: 500px;-o-animation-timing-function: ease-out;}
-88%  
 100% {margin-top: 0px; -o-animation-timing-function: ease-in;}
 }
-
 @keyframes bounce {
 0%   {margin-top: 0px; animation-timing-function: ease-in;}
-11%  
 12%  {margin-top: 500px;animation-timing-function: ease-out;}
-13%  
 25%  {margin-top: 0px; animation-timing-function: ease-in;}
-36%  
 37%  {margin-top: 500px;animation-timing-function: ease-out;}
-38%  
 49%  {margin-top: 0px; animation-timing-function: ease-in;}
-60%  
 61%  {margin-top: 500px;animation-timing-function: ease-out;}
-62%  
 75%  {margin-top: 0px; animation-timing-function: ease-in;}
-86%  
 87%  {margin-top: 500px;animation-timing-function: ease-out;}
-88%  
 100% {margin-top: 0px; animation-timing-function: ease-in;}
 }
-
-
-
-
 

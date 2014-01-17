@@ -55,7 +55,7 @@ $(document).ready(function () {
   var messages = ["Nice!",
           "There ya go!",
           "Killin' it!",
-          "Wow, what a clicker!",
+          "Whoa, its speeding up!",
           "Boom-Shakalaca!",
           "P.R.O.!",
           "Incredible!",
@@ -74,7 +74,7 @@ $(document).ready(function () {
       flashMessage();
     } else {
       $('#congrats').text('WINNER!');
-      $('#next_level').text("Holy cow! You won the whole freakin' thing!");
+      $('#next_level').text("Nailed it!  Thanks for playing!");
       $('#replay').show();
       $('#target_container').hide();
       $('#message_container').show();
